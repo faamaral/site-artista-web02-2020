@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Poppins&display=swap');
+body {
+  font-family: 'Poppins';
+  text-align: justify;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+header, #principal, #second, #contato {
+  width: 1200px;
+  margin: auto;
+}
+
+main {
+  background-color: #211D1D;
+}
+
+#principal {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#principal img {
+  max-height: 400px;
+  justify-content: baseline;
+}
+
+#sec_ctd {
+  margin-left: 2%;
+    margin-right: 2%;
+}
+
+#sec_ctd h1{
+  text-align: end;
+}
+
+#sec_ctd h1, p {
+  color: white;
+}
+
+#sec_ctd p {
+  padding: 10px;
+  text-align: justify;
+  width: auto;
+}
+
+#sec_ctd a{
+  text-decoration: none;
+}
+
+#second {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.capa {
+  max-height: 400px;
+  max-width: 350px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+#descricao {
+  margin-right: 20px;
+  border: solid 2px;
+  padding: 20px 100px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+#acesso {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 25px;
+  color: darkgreen;
+  border-radius: 10px;
+}
+
+#acesso a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+#acesso img {
+  max-height: 50px;
+}
+
+
+#logo {
+  max-height: 100px;
+  margin-left: 10%;
+}
+
+#menu {
+  display: flex;
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  margin-right: 10%;
+}
+
+.item-menu {
+  display: inline;
+  margin-left: 20px; 
+}
+
+.link-menu {
+  font-size: 18px;
+  color: aliceblue;
+  text-decoration: none;
+  background-color: #404040;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.f {
+  background-color: #5b305a;
+}
+
+.l {
+  background-color: #e49756;
+}
+.m {
+  background-color: #e04b5a;
+}
+
+footer {
+  background-color: #404040;
+  width: 100%;
+}
+
+#contato {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#email {
+  margin-left: 5%;
+}
+
+#email a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+#social {
+  margin-right: 5%;
+}
+
+#social img{
+  max-width: 25px;
+  max-height: 25px;
+  margin-left: 8px;
+}
+
+
